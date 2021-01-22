@@ -3,10 +3,15 @@ import { postUsuarios } from '../../services'
 import "./Login.css"
 import 'antd/dist/antd.css';
 import { Button, Input, Space } from 'antd';
+import { Link, useHistory } from 'react-router';
 
 function Login() {
     const [email, setEmail] = useState('')
     const [password, setPassword] = useState('')
+
+    const history = useHistory()
+
+
 
     return (
         <div className="div-login" style={{ padding: 24, textAlign: 'center' }}>
