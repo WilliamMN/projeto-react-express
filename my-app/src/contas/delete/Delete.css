@@ -1,0 +1,12 @@
+.div-contas-delete{
+  position: absolute;
+  text-align: 'center';
+  border: 1px solid  rgb(228, 228, 228);
+  border-radius: 10px;
+  background-color: #eeeeee;
+  min-height: 200px;
+  min-width: 200px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
