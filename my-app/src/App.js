@@ -2,7 +2,7 @@ import React from 'react';
 import {BrowserRouter, Route, Switch} from 'react-router-dom'
 import Login from './user/login/Login'
 import Cadastro from './user/signup/Cadastro'
-import Home from './home/Home'
+import Home from './home/home/Home'
 import Search from "./contas/search/Search"
 import Create from "./contas/create/Create"
 import Delete from "./contas/delete/Delete"
